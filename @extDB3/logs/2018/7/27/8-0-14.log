@@ -1,0 +1,33 @@
+
+extDB3: https://bitbucket.org/torndeco/extdb3/wiki/Home
+extDB3: Version: 1.031
+extDB3: Windows Version
+Message: All development for extDB3 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB3 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 18/05/15
+
+
+extDB3: Found extdb3-conf.ini
+extDB3: Detected 8 Cores, Setting up 6 Worker Threads
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+
+
+[08:00:27:479403 +01:00] [Thread 14652] extDB3: SQL: Initialized: Add Quotes around TEXT Datatypes mode: 2
+[08:00:27:479455 +01:00] [Thread 14652] extDB3: SQL: Initialized: NULL = ""
+[08:00:27:479471 +01:00] [Thread 14652] extDB3: Locked
+[12:34:19:689307 +01:00] [Thread 17256] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[12:34:19:689357 +01:00] [Thread 17256] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET jail_time='5' WHERE playerid='76561198183333381'
+[13:24:02:426385 +01:00] [Thread 13884] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[13:24:02:426435 +01:00] [Thread 13884] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET jail_time='30' WHERE playerid='76561198296637878'
+[13:33:16:832723 +01:00] [Thread 13884] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[13:33:16:832743 +01:00] [Thread 13884] extDB3: SQL: Error MariaDBQueryException: Input: SELECT jail_time FROM players WHERE playerid='76561198056198913'
+[13:55:57:911124 +01:00] [Thread 17340] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[13:55:57:911170 +01:00] [Thread 17340] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET jail_time='5' WHERE playerid='76561198303096295'

@@ -1,0 +1,31 @@
+
+extDB3: https://bitbucket.org/torndeco/extdb3/wiki/Home
+extDB3: Version: 1.031
+extDB3: Windows Version
+Message: All development for extDB3 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB3 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 18/05/15
+
+
+extDB3: Found extdb3-conf.ini
+extDB3: Detected 8 Cores, Setting up 6 Worker Threads
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+
+
+[08:00:36:287657 +01:00] [Thread 6676] extDB3: SQL: Initialized: Add Quotes around TEXT Datatypes mode: 2
+[08:00:36:287708 +01:00] [Thread 6676] extDB3: SQL: Initialized: NULL = ""
+[08:00:36:287723 +01:00] [Thread 6676] extDB3: Locked
+[11:43:49:589836 +01:00] [Thread 6644] extDB3: SQL: Error MariaDBQueryException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Майкл' WHERE wantedID='76561198069829578'' at line 1
+[11:43:49:589912 +01:00] [Thread 6644] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE wanted SET wantedName='Bratva | Lil'Майкл' WHERE wantedID='76561198069829578'
+[12:36:17:552868 +01:00] [Thread 5464] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[12:36:17:552913 +01:00] [Thread 5464] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET jail_time='15' WHERE playerid='76561198144033207'
+[13:05:31:914535 +01:00] [Thread 2916] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[13:05:31:914585 +01:00] [Thread 2916] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET jail_time='15' WHERE playerid='76561198123997075'

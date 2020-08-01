@@ -1,0 +1,51 @@
+
+extDB3: https://bitbucket.org/torndeco/extdb3/wiki/Home
+extDB3: Version: 1.031
+extDB3: Windows Version
+Message: All development for extDB3 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB3 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 18/05/15
+
+
+extDB3: Found extdb3-conf.ini
+extDB3: Detected 8 Cores, Setting up 6 Worker Threads
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+
+
+[14:00:34:871961 +01:00] [Thread 7304] extDB3: SQL: Initialized: Add Quotes around TEXT Datatypes mode: 2
+[14:00:34:872012 +01:00] [Thread 7304] extDB3: SQL: Initialized: NULL = ""
+[14:00:34:872029 +01:00] [Thread 7304] extDB3: Locked
+[14:42:47:346686 +01:00] [Thread 7376] extDB3: SQL: Error MariaDBQueryException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Майкл', '"[`187V`]"', '30000', '1')' at line 1
+[14:42:47:346730 +01:00] [Thread 7376] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO wanted (wantedID, wantedName, wantedCrimes, wantedBounty, active) VALUES('76561198069829578', 'Bratva | Lil'Майкл', '"[`187V`]"', '30000', '1')
+[14:47:31:774037 +01:00] [Thread 6912] extDB3: SQL: Error MariaDBQueryException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Майкл', '"[`187`]"', '60000', '1')' at line 1
+[14:47:31:774060 +01:00] [Thread 6912] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO wanted (wantedID, wantedName, wantedCrimes, wantedBounty, active) VALUES('76561198069829578', 'Bratva | Lil'Майкл', '"[`187`]"', '60000', '1')
+[16:04:26:406542 +01:00] [Thread 7376] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[16:04:26:406589 +01:00] [Thread 7376] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET jail_time='5' WHERE playerid='76561198036002280'
+[16:39:24:807704 +01:00] [Thread 6064] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[16:39:24:807744 +01:00] [Thread 6064] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET jail_time='15' WHERE playerid='76561198164773964'
+[17:31:36:130600 +01:00] [Thread 1912] extDB3: SQL: Error MariaDBQueryException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Майкл', '"[`459`]"', '50000', '1')' at line 1
+[17:31:36:130647 +01:00] [Thread 1912] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO wanted (wantedID, wantedName, wantedCrimes, wantedBounty, active) VALUES('76561198069829578', 'Bratva | Lil'Майкл', '"[`459`]"', '50000', '1')
+[17:39:29:941245 +01:00] [Thread 6912] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[17:39:29:941267 +01:00] [Thread 6912] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET jail_time='30' WHERE playerid='76561198111334689'
+[17:42:14:942681 +01:00] [Thread 5244] extDB3: SQL: Error MariaDBQueryException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Майкл', '"[`187`]"', '60000', '1')' at line 1
+[17:42:14:942704 +01:00] [Thread 5244] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO wanted (wantedID, wantedName, wantedCrimes, wantedBounty, active) VALUES('76561198069829578', 'Bratva | Lil'Майкл', '"[`187`]"', '60000', '1')
+[17:44:59:717549 +01:00] [Thread 1912] extDB3: SQL: Error MariaDBQueryException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Майкл', '"[`187`]"', '60000', '1')' at line 1
+[17:44:59:717599 +01:00] [Thread 1912] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO wanted (wantedID, wantedName, wantedCrimes, wantedBounty, active) VALUES('76561198069829578', 'Bratva | Lil'Майкл', '"[`187`]"', '60000', '1')
+[17:45:17:983978 +01:00] [Thread 5244] extDB3: SQL: Error MariaDBQueryException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Майкл', '"[`187`]"', '60000', '1')' at line 1
+[17:45:17:983998 +01:00] [Thread 5244] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO wanted (wantedID, wantedName, wantedCrimes, wantedBounty, active) VALUES('76561198069829578', 'Bratva | Lil'Майкл', '"[`187`]"', '60000', '1')
+[17:45:24:548227 +01:00] [Thread 5244] extDB3: SQL: Error MariaDBQueryException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Майкл', '"[`187`]"', '60000', '1')' at line 1
+[17:45:24:548247 +01:00] [Thread 5244] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO wanted (wantedID, wantedName, wantedCrimes, wantedBounty, active) VALUES('76561198069829578', 'Bratva | Lil'Майкл', '"[`187`]"', '60000', '1')
+[17:58:10:016783 +01:00] [Thread 1136] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[17:58:10:016807 +01:00] [Thread 1136] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET jail_time='5' WHERE playerid='76561198446983264'
+[18:18:44:768163 +01:00] [Thread 1136] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[18:18:44:768205 +01:00] [Thread 1136] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET jail_time='5' WHERE playerid='76561198306359576'
+[18:33:04:836902 +01:00] [Thread 1912] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[18:33:04:836925 +01:00] [Thread 1912] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET jail_time='10' WHERE playerid='76561198306359576'

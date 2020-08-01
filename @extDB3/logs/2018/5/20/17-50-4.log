@@ -1,0 +1,567 @@
+
+extDB3: https://bitbucket.org/torndeco/extdb3/wiki/Home
+extDB3: Version: 1.031
+extDB3: Windows Version
+Message: All development for extDB3 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB3 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 18/05/15
+
+
+extDB3: Found extdb3-conf.ini
+extDB3: Detected 8 Cores, Setting up 6 Worker Threads
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+
+
+[17:50:26:470722 +01:00] [Thread 4980] extDB3: SQL: Initialized: Add Quotes around TEXT Datatypes mode: 2
+[17:50:26:470803 +01:00] [Thread 4980] extDB3: SQL: Initialized: NULL = ""
+[17:50:26:470833 +01:00] [Thread 4980] extDB3: Locked
+[17:50:26:499929 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'players.playerid' in 'where clause'
+[17:50:26:499950 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT houses.id, houses.pid, houses.pos, players.name FROM houses INNER JOIN players WHERE houses.owned='1' AND houses.pid = players.playerid LIMIT 0,10
+[17:51:17:828011 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:17:828041 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:17:976970 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:17:976991 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:17:977506 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:17:977525 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:18:085324 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:18:085349 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:18:211673 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:18:211690 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:18:212332 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:18:212345 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:18:318405 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:18:318428 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:18:442226 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:18:442281 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:18:442933 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:18:442946 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:18:549007 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:18:549030 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:18:692912 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:18:692934 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:18:693579 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:18:693592 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:18:821637 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:18:821661 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:18:946524 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:18:946547 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:18:947042 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:18:947055 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:19:058059 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:19:058083 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:19:205290 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:19:205310 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:19:206063 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:19:206085 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:19:313974 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:19:313999 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:19:436882 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:19:436905 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:19:437554 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:19:437569 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:19:543567 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:19:543589 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:19:688517 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:19:688537 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:19:689028 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:19:689045 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:19:796202 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:19:796225 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:19:923200 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:19:923218 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:19:923929 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:19:923943 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:20:032551 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:20:032575 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:20:158800 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:20:158822 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:20:159474 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:20:159490 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:20:287534 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:20:287554 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:20:411444 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:20:411467 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:20:411948 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:20:411963 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:20:520133 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:20:520157 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:20:644086 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:20:644107 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:20:707224 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:20:707247 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:20:798008 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:20:798032 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:20:899754 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:20:899778 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:20:900449 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:20:900462 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:21:011010 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:21:011071 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:21:185504 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:21:185527 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:21:185995 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:21:186013 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:21:318910 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:21:318936 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:21:465245 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:21:465265 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:21:465896 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:21:465909 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:21:577044 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:21:577064 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:21:728980 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:21:729002 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:21:729493 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:21:729506 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:21:859656 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:21:859679 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:21:985687 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:21:985708 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:21:986411 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:21:986433 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:22:117058 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:22:117082 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:22:265407 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:22:265427 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:22:265950 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:22:265965 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:22:373047 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:22:373072 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:22:581234 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:22:581258 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:22:581892 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:22:581905 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:22:688883 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:22:688907 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:22:812868 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:22:812891 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:22:813521 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:22:813535 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:22:939530 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:22:939559 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:23:088560 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:23:088581 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:23:089124 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:23:089141 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:23:197310 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:23:197332 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:23:321191 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:23:321214 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:23:321739 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:23:321757 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:23:428596 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:23:428618 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:23:532752 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:23:532775 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:23:533420 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:23:533431 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:23:641035 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:23:641060 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:23:764373 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:23:764396 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:23:764880 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:23:764901 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:23:871948 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:23:871971 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:23:995999 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:23:996022 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:23:996675 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:23:996690 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:24:084148 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:24:084171 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:24:212591 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:24:212612 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:24:213252 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:24:213265 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:24:320578 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:24:320598 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:24:444184 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:24:444206 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:24:444828 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:24:444840 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:24:552085 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:24:552106 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:24:716911 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:24:716937 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:24:717573 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:24:717587 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:24:866831 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:24:866855 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:25:012715 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:25:012737 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:25:013238 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:25:013251 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:25:121211 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:25:121231 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:25:272391 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:25:272413 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:25:272902 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:25:272920 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:25:424039 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:25:424063 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:25:568742 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:25:568766 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:25:569428 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:25:569448 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:25:676541 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:25:676562 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:25:842436 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:25:842458 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:25:855994 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:25:856021 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:25:992254 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:25:992274 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:26:142184 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:26:142207 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:26:142699 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:26:142714 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:26:253634 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:26:253657 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:26:399895 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:26:399914 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:26:400558 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:26:400572 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:26:507511 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:26:507535 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:26:652828 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:26:652855 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:26:653490 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:26:653514 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:26:783503 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:26:783523 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:26:928318 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:26:928341 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:26:928968 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:26:928979 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:27:035128 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:27:035150 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:27:204094 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:27:204114 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:27:204774 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:27:204795 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:27:312387 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:27:312411 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:27:459727 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:27:459751 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:27:460391 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:27:460404 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:27:567465 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:27:567491 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:27:712363 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:27:712387 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:27:712894 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:27:712909 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:27:819705 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:27:819728 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:27:986096 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:27:986122 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:27:986621 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:27:986658 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:28:157810 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:28:157831 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:28:329020 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:28:329043 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:28:329547 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:28:329562 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:28:460354 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:28:460378 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:28:629808 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:28:629833 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:28:630332 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:28:630346 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:28:737776 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:28:737799 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:28:905580 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:28:905602 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:28:906229 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:28:906242 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:29:012842 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:29:012865 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:29:159204 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:29:159227 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:29:159740 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:29:159755 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:29:320908 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:29:320932 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:29:466079 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:29:466102 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:29:466734 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:29:466746 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:29:573898 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:29:573922 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:29:717730 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:29:717754 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:29:718411 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:29:718423 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:29:825794 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:29:825813 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:29:992414 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:29:992436 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:29:992922 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:29:992932 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:30:146298 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:30:146325 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:30:292242 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:30:292264 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:30:292769 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:30:292781 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:30:404991 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:30:405011 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:30:552971 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:30:552996 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:30:553642 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:30:553656 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:30:660257 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:30:660277 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:30:807586 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:30:807607 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:30:808090 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:30:808100 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:30:918363 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:30:918386 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:31:065333 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:31:065355 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:31:066005 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:31:066017 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:31:173031 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:31:173055 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:31:317923 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:31:317942 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:31:318425 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:31:318438 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:31:427251 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:31:427278 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:31:580316 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:31:580974 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:31:587071 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:31:587332 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:31:680296 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:31:680320 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:31:846350 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:31:846372 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:31:846855 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:31:846870 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:31:994886 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:31:994910 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:32:140138 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:32:140161 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:32:140671 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:32:140694 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:32:250085 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:32:250105 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:32:399850 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:32:399908 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:32:400417 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:32:400437 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:32:510101 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:32:510125 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:32:656527 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:32:656549 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:32:657016 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:32:657026 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:32:763195 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:32:763218 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:32:936291 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:32:936313 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:32:937003 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:32:937022 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:33:087924 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:33:087951 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:33:234096 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:33:234121 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:33:234781 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:33:234794 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:33:387405 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:33:387432 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:33:563788 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:33:563994 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:33:566821 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:33:566844 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:33:707680 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:33:707703 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:33:852748 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:33:852771 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:33:853431 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:33:853451 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:33:964044 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:33:964068 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:34:132441 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:34:132463 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:34:132965 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:34:132985 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:34:262257 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:34:262280 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:34:389097 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:34:389118 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:34:389607 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:34:389622 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:34:497490 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:34:497513 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:34:642821 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:34:642844 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:34:643331 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:34:643349 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:34:750455 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:34:750478 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:34:915547 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:34:915569 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:34:916213 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:34:916228 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:35:023260 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:35:023280 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:35:171231 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:35:171255 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:35:171907 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:35:171919 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:35:278813 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:35:278839 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:35:424850 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:35:424873 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:35:425368 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:35:425385 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:35:535550 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:35:535573 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:35:680590 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:35:680612 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:35:681273 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:35:681285 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:35:788406 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:35:788429 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:35:954271 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:35:954295 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:35:954794 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:35:954814 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:36:104108 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:36:104132 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:36:247075 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:36:247098 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:36:247727 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:36:247742 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:36:379535 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:36:379556 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:36:504717 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:36:504736 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:36:505203 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:36:505215 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:36:658539 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:36:658563 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:36:873741 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:36:873765 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:36:874401 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:36:874412 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:36:981107 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:36:981132 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:37:128423 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:37:128447 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:37:129080 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:37:129092 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:37:236386 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:37:236413 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:37:381074 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:37:381098 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:37:381570 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:37:381581 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:37:488399 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:37:488422 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:37:634845 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:37:634866 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:37:635535 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:37:635550 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:37:743472 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:37:743494 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:37:909498 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:37:909521 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:37:910179 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:37:910192 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:38:017179 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:38:017201 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:38:161171 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:38:161196 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:38:161847 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:38:161867 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:38:271475 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:38:271499 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:38:417798 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:38:417816 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:38:418306 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:38:418320 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:38:530067 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:38:530085 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:38:676545 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:38:676568 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:38:677233 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:38:677248 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:38:784201 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:38:784223 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:38:929214 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:38:929235 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:38:929866 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:38:929879 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:39:036923 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:39:036946 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:39:181904 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:39:181927 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:39:182589 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:39:182604 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:39:288526 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:39:288548 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:39:455651 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:39:455672 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:39:456324 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:39:456338 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:39:610553 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:39:610573 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:39:804561 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:39:804583 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:39:805253 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:39:805268 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:39:912271 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:39:912295 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:40:056163 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:40:056187 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:40:056722 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:40:056738 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:40:163463 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:40:163486 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:40:311894 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:40:311917 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:40:312670 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:40:312684 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:40:419538 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:40:419561 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:40:567549 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:40:567570 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:40:568065 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:40:568078 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:40:676486 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:40:676511 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:40:826269 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:40:826292 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:40:826980 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:40:826993 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:40:955273 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:40:955296 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:41:119019 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:41:119040 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:41:119890 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:41:119904 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:41:270843 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:41:270867 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:41:415779 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:41:415803 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:41:416311 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:41:416327 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')
+[17:51:41:523184 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:41:523203 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime FROM players WHERE playerid='76561198139171015'
+[17:51:41:668513 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:41:668535 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: SELECT playerid, name FROM players WHERE playerid='76561198139171015'
+[17:51:41:669037 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'field list'
+[17:51:41:669051 +01:00] [Thread 1364] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES('76561198139171015', 'COP  DonPedroTV', '0', '50000', '"[`COP  DonPedroTV`]"','"[]"','"[]"','"[]"','"[]"','"[]"','"[]"')

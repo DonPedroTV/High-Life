@@ -1,0 +1,33 @@
+
+extDB3: https://bitbucket.org/torndeco/extdb3/wiki/Home
+extDB3: Version: 1.031
+extDB3: Windows Version
+Message: All development for extDB3 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB3 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 18/05/15
+
+
+extDB3: Found extdb3-conf.ini
+extDB3: Detected 8 Cores, Setting up 6 Worker Threads
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+
+
+[16:01:03:838393 +02:00] [Thread 22564] extDB3: SQL: Initialized: Add Quotes around TEXT Datatypes mode: 2
+[16:01:03:838456 +02:00] [Thread 22564] extDB3: SQL: Initialized: NULL = ""
+[16:01:03:838482 +02:00] [Thread 22564] extDB3: Locked
+[16:35:28:926780 +02:00] [Thread 8420] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[16:35:28:926849 +02:00] [Thread 8420] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET jail_time='10' WHERE playerid='76561198260378020'
+[16:51:50:798490 +02:00] [Thread 9604] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[16:51:50:798518 +02:00] [Thread 9604] extDB3: SQL: Error MariaDBQueryException: Input: SELECT jail_time FROM players WHERE playerid='76561198260378020'
+[17:40:35:558498 +02:00] [Thread 972] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[17:40:35:558554 +02:00] [Thread 972] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET jail_time='10' WHERE playerid='76561198219855771'
+[19:01:18:920848 +02:00] [Thread 26252] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[19:01:18:920913 +02:00] [Thread 26252] extDB3: SQL: Error MariaDBQueryException: Input: SELECT jail_time FROM players WHERE playerid='76561198219855771'

@@ -1,0 +1,29 @@
+
+extDB3: https://bitbucket.org/torndeco/extdb3/wiki/Home
+extDB3: Version: 1.031
+extDB3: Windows Version
+Message: All development for extDB3 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB3 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 18/05/15
+
+
+extDB3: Found extdb3-conf.ini
+extDB3: Detected 8 Cores, Setting up 6 Worker Threads
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+
+
+[08:00:44:236960 +01:00] [Thread 13700] extDB3: SQL: Initialized: Add Quotes around TEXT Datatypes mode: 2
+[08:00:44:237129 +01:00] [Thread 13700] extDB3: SQL: Initialized: NULL = ""
+[08:00:44:237207 +01:00] [Thread 13700] extDB3: Locked
+[12:13:56:025234 +01:00] [Thread 14172] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[12:13:56:025361 +01:00] [Thread 14172] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET jail_time='5' WHERE playerid='76561198184495545'
+[13:47:44:251860 +01:00] [Thread 12304] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[13:47:44:251984 +01:00] [Thread 12304] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET jail_time='15' WHERE playerid='76561198144033207'

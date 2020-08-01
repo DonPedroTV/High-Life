@@ -1,0 +1,35 @@
+
+extDB3: https://bitbucket.org/torndeco/extdb3/wiki/Home
+extDB3: Version: 1.031
+extDB3: Windows Version
+Message: All development for extDB3 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB3 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 18/05/15
+
+
+extDB3: Found extdb3-conf.ini
+extDB3: Detected 8 Cores, Setting up 6 Worker Threads
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+
+
+[08:01:17:211944 +02:00] [Thread 5052] extDB3: SQL: Initialized: Add Quotes around TEXT Datatypes mode: 2
+[08:01:17:211997 +02:00] [Thread 5052] extDB3: SQL: Initialized: NULL = ""
+[08:01:17:212013 +02:00] [Thread 5052] extDB3: Locked
+[11:36:21:281565 +02:00] [Thread 6252] extDB3: SQL: Error MariaDBQueryException: Incorrect string value: '\xC5\x82 Pan...' for column 'message' at row 1
+[11:36:21:281608 +02:00] [Thread 6252] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO `xphonemessages` (sender, receiver, message) VALUES ('7616107796', '7149518698', '"Pomylił Pan numery xd"')
+[11:36:39:046332 +02:00] [Thread 6252] extDB3: SQL: Error MariaDBQueryException: Incorrect string value: '\xC4\x87\xC5\x9Bii...' for column 'message' at row 1
+[11:36:39:046352 +02:00] [Thread 6252] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO `xphonemessages` (sender, receiver, message) VALUES ('7149518698', '7616107796', '"ćśii"')
+[11:37:04:068032 +02:00] [Thread 6252] extDB3: SQL: Error MariaDBQueryException: Incorrect string value: '\xC5\xBCe pa...' for column 'message' at row 1
+[11:37:04:068051 +02:00] [Thread 6252] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO `xphonemessages` (sender, receiver, message) VALUES ('7149518698', '7616107796', '"a może pan ma robote dla mnie"')
+[11:37:48:830262 +02:00] [Thread 6252] extDB3: SQL: Error MariaDBQueryException: Incorrect string value: '\xC5\x82ogi ...' for column 'message' at row 1
+[11:37:48:830282 +02:00] [Thread 6252] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO `xphonemessages` (sender, receiver, message) VALUES ('7616107796', '7149518698', '"Podłogi w szpitalu są brudne. Jezeli ma Pan ochote zapraszam. "')
+[11:50:20:602438 +02:00] [Thread 6252] extDB3: SQL: Error MariaDBQueryException: Incorrect string value: '\xC5\x82"' for column 'message' at row 1
+[11:50:20:602477 +02:00] [Thread 6252] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO `xphonemessages` (sender, receiver, message) VALUES ('7616107796', '7619370452', '"joł"')

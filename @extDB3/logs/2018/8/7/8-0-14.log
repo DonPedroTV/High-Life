@@ -1,0 +1,255 @@
+
+extDB3: https://bitbucket.org/torndeco/extdb3/wiki/Home
+extDB3: Version: 1.031
+extDB3: Windows Version
+Message: All development for extDB3 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB3 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 18/05/15
+
+
+extDB3: Found extdb3-conf.ini
+extDB3: Detected 8 Cores, Setting up 6 Worker Threads
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+
+
+[08:00:28:466903 +01:00] [Thread 11884] extDB3: SQL: Initialized: Add Quotes around TEXT Datatypes mode: 2
+[08:00:28:466954 +01:00] [Thread 11884] extDB3: SQL: Initialized: NULL = ""
+[08:00:28:466970 +01:00] [Thread 11884] extDB3: Locked
+[10:53:15:026902 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:15:026952 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET name='POLICJA   Daniel Stone', cash='10000000000', bankacc='50000', civ_licenses='"[[`license_civ_driver`,0],[`license_civ_nasiu`,0],[`license_civ_broda`,0],[`license_civ_cezary`,0],[`license_civ_boat`,0],[`license_civ_pilot`,0],[`license_civ_trucking`,0],[`license_civ_gun`,0],[`license_civ_dive`,0],[`license_civ_home`,0],[`license_civ_uran_ocz`,0],[`license_civ_uran_przetw`,0],[`license_civ_uran_wzb`,0],[`license_civ_uran_pret`,0],[`license_civ_uran_brud`,0],[`license_civ_oil`,0],[`license_civ_diamond`,0],[`license_civ_salt`,0],[`license_civ_sand`,0],[`license_civ_iron`,0],[`license_civ_copper`,0],[`license_civ_cement`,0],[`license_civ_cukier`,0],[`license_civ_proch`,0],[`license_civ_pocisk`,0],[`license_civ_dop`,0],[`license_civ_butelka`,0],[`license_civ_tyton`,0],[`license_civ_pet`,0],[`license_civ_medmarijuana`,0],[`license_civ_grom`,0],[`license_civ_4DWD`,0],[`license_civ_mafia`,0],[`license_civ_klapek`,0],[`license_civ_cocaine`,0],[`license_civ_heroin`,0],[`license_civ_marijuana`,0],[`license_civ_rebel`,0],[`license_civ_rebel2`,0],[`license_civ_czrynek`,0],[`license_civ_bountyH`,0]]"', civ_gear='"[`U_C_Poloshirt_blue`,``,``,``,``,[`ItemMap`,`ItemCompass`,`ItemWatch`,`ItemRadio`,`ItemGPS`],``,``,[],[],[],[],[],[],[``,``,``,``],[``,``,``,``],[]]"', arrested='0', civ_stats='"[100,100,0]"', civ_alive='0', civ_position='"[3646.32,13081.8,0.366683]"', playtime='"[0,0,2]"' WHERE pid='76561198139171015'
+[10:53:20:221458 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:20:221477 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9999250432', bankacc='800000' WHERE pid='76561198139171015'
+[10:53:20:397866 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:20:397880 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9998500864', bankacc='1550000' WHERE pid='76561198139171015'
+[10:53:20:552305 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:20:552319 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9997751296', bankacc='2300000' WHERE pid='76561198139171015'
+[10:53:20:679683 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:20:679699 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9997001728', bankacc='3050000' WHERE pid='76561198139171015'
+[10:53:20:811967 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:20:811982 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9996252160', bankacc='3800000' WHERE pid='76561198139171015'
+[10:53:20:962414 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:20:962431 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9995502592', bankacc='4550000' WHERE pid='76561198139171015'
+[10:53:21:094754 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:21:094769 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9994753024', bankacc='5300000' WHERE pid='76561198139171015'
+[10:53:21:269230 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:21:269246 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9994003456', bankacc='6050000' WHERE pid='76561198139171015'
+[10:53:21:356449 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:21:356469 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9993253888', bankacc='6800000' WHERE pid='76561198139171015'
+[10:53:21:510826 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:21:510841 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9992504320', bankacc='7550000' WHERE pid='76561198139171015'
+[10:53:21:708381 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:21:708397 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9991754752', bankacc='8300000' WHERE pid='76561198139171015'
+[10:53:22:652862 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:22:652878 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9991005184', bankacc='9050000' WHERE pid='76561198139171015'
+[10:53:22:802257 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:22:802272 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9990255616', bankacc='9800000' WHERE pid='76561198139171015'
+[10:53:22:934634 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:22:934647 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9989506048', bankacc='10550000' WHERE pid='76561198139171015'
+[10:53:23:170352 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:23:170366 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9988756480', bankacc='11300000' WHERE pid='76561198139171015'
+[10:53:23:297592 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:23:297608 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9988006912', bankacc='12050000' WHERE pid='76561198139171015'
+[10:53:23:492096 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:23:492111 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9987257344', bankacc='12800000' WHERE pid='76561198139171015'
+[10:53:23:536257 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:23:536272 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9986507776', bankacc='13550000' WHERE pid='76561198139171015'
+[10:53:23:644602 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:23:644644 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9985758208', bankacc='14300000' WHERE pid='76561198139171015'
+[10:53:23:732764 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:23:732779 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9985008640', bankacc='15050000' WHERE pid='76561198139171015'
+[10:53:23:953353 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:23:953367 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9984259072', bankacc='15800000' WHERE pid='76561198139171015'
+[10:53:24:084735 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:24:084750 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9983509504', bankacc='16550000' WHERE pid='76561198139171015'
+[10:53:24:194995 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:24:195011 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9982759936', bankacc='17300000' WHERE pid='76561198139171015'
+[10:53:24:327418 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:24:327432 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9982010368', bankacc='18050000' WHERE pid='76561198139171015'
+[10:53:24:415617 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:24:415632 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9981260800', bankacc='18800000' WHERE pid='76561198139171015'
+[10:53:24:525844 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:24:525860 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9980511232', bankacc='19550000' WHERE pid='76561198139171015'
+[10:53:24:614090 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:24:614107 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9979761664', bankacc='20300000' WHERE pid='76561198139171015'
+[10:53:24:745480 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:24:745496 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9979012096', bankacc='21050000' WHERE pid='76561198139171015'
+[10:53:24:875797 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:24:875817 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9978262528', bankacc='21800000' WHERE pid='76561198139171015'
+[10:53:24:983137 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:24:983152 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9977512960', bankacc='22550000' WHERE pid='76561198139171015'
+[10:53:25:112405 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:25:112419 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9976763392', bankacc='23300000' WHERE pid='76561198139171015'
+[10:53:25:222739 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:25:222761 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9976013824', bankacc='24050000' WHERE pid='76561198139171015'
+[10:53:25:332080 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:25:332099 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9975264256', bankacc='24800000' WHERE pid='76561198139171015'
+[10:53:25:462384 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:25:462399 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9974514688', bankacc='25550000' WHERE pid='76561198139171015'
+[10:53:25:572639 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:25:572659 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9973765120', bankacc='26300000' WHERE pid='76561198139171015'
+[10:53:25:748097 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:25:748113 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9973015552', bankacc='27050000' WHERE pid='76561198139171015'
+[10:53:25:924595 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:25:924614 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9972265984', bankacc='27800000' WHERE pid='76561198139171015'
+[10:53:26:123092 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:26:123110 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9971516416', bankacc='28550000' WHERE pid='76561198139171015'
+[10:53:26:625475 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:26:625492 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9970766848', bankacc='29300000' WHERE pid='76561198139171015'
+[10:53:26:773825 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:26:773839 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9970017280', bankacc='30050000' WHERE pid='76561198139171015'
+[10:53:27:120786 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:27:120801 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9969267712', bankacc='30800000' WHERE pid='76561198139171015'
+[10:53:28:099383 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:28:099400 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9968518144', bankacc='31550000' WHERE pid='76561198139171015'
+[10:53:28:231730 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:28:231745 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9967768576', bankacc='32300000' WHERE pid='76561198139171015'
+[10:53:28:383195 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:28:383211 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9967019008', bankacc='33050000' WHERE pid='76561198139171015'
+[10:53:28:515497 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:28:515513 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9966269440', bankacc='33800000' WHERE pid='76561198139171015'
+[10:53:28:668896 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:28:668976 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9965519872', bankacc='34550000' WHERE pid='76561198139171015'
+[10:53:28:801214 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:28:801231 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9964770304', bankacc='35300000' WHERE pid='76561198139171015'
+[10:53:28:976698 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:28:976713 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9964020736', bankacc='36050000' WHERE pid='76561198139171015'
+[10:53:29:109065 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:29:109080 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9963271168', bankacc='36800000' WHERE pid='76561198139171015'
+[10:53:29:262484 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:29:262501 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9962521600', bankacc='37550000' WHERE pid='76561198139171015'
+[10:53:29:415952 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:29:415967 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9961772032', bankacc='38300000' WHERE pid='76561198139171015'
+[10:53:29:548286 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:29:548302 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9961022464', bankacc='39050000' WHERE pid='76561198139171015'
+[10:53:29:806957 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:29:806970 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9960272896', bankacc='39800000' WHERE pid='76561198139171015'
+[10:53:29:960581 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:29:960594 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9959523328', bankacc='40550000' WHERE pid='76561198139171015'
+[10:53:30:092729 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:30:092744 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9958773760', bankacc='41300000' WHERE pid='76561198139171015'
+[10:53:30:246078 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:30:246099 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9958024192', bankacc='42050000' WHERE pid='76561198139171015'
+[10:53:30:398514 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:30:398529 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9957274624', bankacc='42800000' WHERE pid='76561198139171015'
+[10:53:30:551964 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:30:551977 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9956525056', bankacc='43550000' WHERE pid='76561198139171015'
+[10:53:30:683245 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:30:683261 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9955775488', bankacc='44300000' WHERE pid='76561198139171015'
+[10:53:30:900826 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:30:900844 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9955025920', bankacc='45050000' WHERE pid='76561198139171015'
+[10:53:31:033191 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:31:033207 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9954276352', bankacc='45800000' WHERE pid='76561198139171015'
+[10:53:31:252766 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:31:252781 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9953526784', bankacc='46550000' WHERE pid='76561198139171015'
+[10:53:31:428227 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:31:428240 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9952777216', bankacc='47300000' WHERE pid='76561198139171015'
+[10:53:31:580968 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:31:580983 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9952027648', bankacc='48050000' WHERE pid='76561198139171015'
+[10:53:31:972681 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:31:972696 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9951278080', bankacc='48800000' WHERE pid='76561198139171015'
+[10:53:32:105071 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:32:105086 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9950528512', bankacc='49550000' WHERE pid='76561198139171015'
+[10:53:32:277490 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:32:277504 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9949778944', bankacc='50300000' WHERE pid='76561198139171015'
+[10:53:32:430912 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:32:430926 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9949029376', bankacc='51050000' WHERE pid='76561198139171015'
+[10:53:32:585357 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:32:585372 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9948279808', bankacc='51800000' WHERE pid='76561198139171015'
+[10:53:32:759775 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:32:759790 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9947530240', bankacc='52550000' WHERE pid='76561198139171015'
+[10:53:32:914202 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:32:914219 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9946780672', bankacc='53300000' WHERE pid='76561198139171015'
+[10:53:33:068601 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:33:068617 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9946031104', bankacc='54050000' WHERE pid='76561198139171015'
+[10:53:33:323281 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:33:323300 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9945281536', bankacc='54800000' WHERE pid='76561198139171015'
+[10:53:33:453708 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:33:453723 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9944531968', bankacc='55550000' WHERE pid='76561198139171015'
+[10:53:33:604083 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:33:604099 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9943782400', bankacc='56300000' WHERE pid='76561198139171015'
+[10:53:33:692280 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:33:692296 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9943032832', bankacc='57050000' WHERE pid='76561198139171015'
+[10:53:33:820598 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:33:820615 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9942283264', bankacc='57800000' WHERE pid='76561198139171015'
+[10:53:33:929858 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:33:929873 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9941533696', bankacc='58550000' WHERE pid='76561198139171015'
+[10:53:34:040169 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:34:040183 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9940784128', bankacc='59300000' WHERE pid='76561198139171015'
+[10:53:34:172589 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:34:172604 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9940034560', bankacc='60050000' WHERE pid='76561198139171015'
+[10:53:34:280754 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:34:280768 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9939284992', bankacc='60800000' WHERE pid='76561198139171015'
+[10:53:34:540592 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:34:540607 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9938535424', bankacc='61550000' WHERE pid='76561198139171015'
+[10:53:34:650868 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:34:650885 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9937785856', bankacc='62300000' WHERE pid='76561198139171015'
+[10:53:34:805207 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:34:805221 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9937036288', bankacc='63050000' WHERE pid='76561198139171015'
+[10:53:34:915488 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:34:915502 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9936286720', bankacc='63800000' WHERE pid='76561198139171015'
+[10:53:35:180239 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:35:180260 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9935537152', bankacc='64550000' WHERE pid='76561198139171015'
+[10:53:35:334625 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:35:334644 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9934787584', bankacc='65300000' WHERE pid='76561198139171015'
+[10:53:35:444904 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:35:444919 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9934038016', bankacc='66050000' WHERE pid='76561198139171015'
+[10:53:35:554247 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:35:554262 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9933288448', bankacc='66800000' WHERE pid='76561198139171015'
+[10:53:35:685595 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:35:685611 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9932538880', bankacc='67550000' WHERE pid='76561198139171015'
+[10:53:35:839901 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:35:839915 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9931789312', bankacc='68300000' WHERE pid='76561198139171015'
+[10:53:35:949261 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:35:949274 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9931039744', bankacc='69050000' WHERE pid='76561198139171015'
+[10:53:36:080596 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:36:080610 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9930290176', bankacc='69800000' WHERE pid='76561198139171015'
+[10:53:36:190872 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:36:190885 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9929540608', bankacc='70550000' WHERE pid='76561198139171015'
+[10:53:36:345338 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:36:345354 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9928791040', bankacc='71300000' WHERE pid='76561198139171015'
+[10:53:36:497744 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:36:497760 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9928041472', bankacc='72050000' WHERE pid='76561198139171015'
+[10:53:36:760427 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:36:760442 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9927291904', bankacc='72800000' WHERE pid='76561198139171015'
+[10:53:36:935891 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:36:935905 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9926542336', bankacc='73550000' WHERE pid='76561198139171015'
+[10:53:37:068206 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:37:068223 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9925792768', bankacc='74300000' WHERE pid='76561198139171015'
+[10:53:37:238695 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:37:238712 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9925043200', bankacc='75050000' WHERE pid='76561198139171015'
+[10:53:37:437212 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:37:437225 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9924293632', bankacc='75800000' WHERE pid='76561198139171015'
+[10:53:37:613680 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:37:613697 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9923544064', bankacc='76550000' WHERE pid='76561198139171015'
+[10:53:37:790126 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:37:790139 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9922794496', bankacc='77300000' WHERE pid='76561198139171015'
+[10:53:37:944579 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:37:944592 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9922044928', bankacc='78050000' WHERE pid='76561198139171015'
+[10:53:38:117978 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:38:117994 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9921295360', bankacc='78800000' WHERE pid='76561198139171015'
+[10:53:38:294464 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:53:38:294479 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='9920545792', bankacc='79550000' WHERE pid='76561198139171015'
+[10:58:16:934511 +01:00] [Thread 19392] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:58:16:934529 +01:00] [Thread 19392] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='999990904306749440' WHERE pid='76561198139171015'
+[10:58:51:560669 +01:00] [Thread 12852] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'westcash' at row 1
+[10:58:51:560695 +01:00] [Thread 12852] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET name='POLICJA   Daniel Stone', westcash='999990904306749440', westbankacc='51250', cop_gear='"[`U_Marshal`,`V_PlateCarrier2_blk`,`B_Bergen_hex_F`,`G_Aviator`,`H_Beret_02`,[`ItemMap`,`ItemCompass`,`ItemWatch`,`ItemRadio`,`B_UavTerminal`,`NVGoggles_OPFOR`,`Rangefinder`],`srifle_DMR_03_F`,`hgun_P07_F`,[],[`HandGrenade_Stone`,`HandGrenade_Stone`],[`Medikit`,`optic_KHS_blk`],[`SmokeShellBlue`,`30Rnd_9x21_Mag`,`30Rnd_9x21_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`30Rnd_9x21_Mag`,`30Rnd_9x21_Mag`,`30Rnd_9x21_Mag`,`20Rnd_762x51_Mag`],[`G_Balaclava_TI_G_blk_F`,`G_Bandanna_aviator`],[`SmokeShellBlue`,`HandGrenade_Stone`,`HandGrenade_Stone`,`HandGrenade_Stone`,`HandGrenade_Stone`,`HandGrenade_Stone`,`HandGrenade_Stone`,`HandGrenade_Stone`,`SmokeShellBlue`,`HandGrenade_Stone`,`HandGrenade_Stone`,`HandGrenade_Stone`,`HandGrenade_Stone`],[`muzzle_snds_B`,`acc_flashlight`,`optic_DMS`,`bipod_01_F_blk`],[`muzzle_snds_L`,``,``,``],[]]"', cop_licenses='"[[`license_cop_cAir`,1],[`license_cop_cg`,1]]"', cop_stats='"[100,100,0]"', playtime='"[2,0,3]"' WHERE pid='76561198139171015'
+[10:59:29:116449 +01:00] [Thread 18596] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'cash' at row 1
+[10:59:29:116472 +01:00] [Thread 18596] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET cash='999990904306749440' WHERE pid='76561198139171015'
+[10:59:51:785857 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'westcash' at row 1
+[10:59:51:785879 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET name='POLICJA   Daniel Stone', westcash='999990904306749440', westbankacc='51250', cop_gear='"[`U_Marshal`,`V_PlateCarrier2_blk`,`B_Bergen_hex_F`,`G_Aviator`,`H_Beret_02`,[`ItemMap`,`ItemCompass`,`ItemWatch`,`ItemRadio`,`B_UavTerminal`,`NVGoggles_OPFOR`,`Rangefinder`],`srifle_DMR_03_F`,`hgun_P07_F`,[],[`HandGrenade_Stone`,`HandGrenade_Stone`],[`Medikit`,`optic_KHS_blk`],[`SmokeShellBlue`,`30Rnd_9x21_Mag`,`30Rnd_9x21_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`30Rnd_9x21_Mag`,`30Rnd_9x21_Mag`,`30Rnd_9x21_Mag`,`20Rnd_762x51_Mag`],[`G_Balaclava_TI_G_blk_F`,`G_Bandanna_aviator`],[`SmokeShellBlue`,`HandGrenade_Stone`,`HandGrenade_Stone`,`HandGrenade_Stone`,`HandGrenade_Stone`,`HandGrenade_Stone`,`HandGrenade_Stone`,`HandGrenade_Stone`,`SmokeShellBlue`,`HandGrenade_Stone`,`HandGrenade_Stone`,`HandGrenade_Stone`,`HandGrenade_Stone`],[`muzzle_snds_B`,`acc_flashlight`,`optic_DMS`,`bipod_01_F_blk`],[`muzzle_snds_L`,``,``,``],[]]"', cop_licenses='"[[`license_cop_cAir`,1],[`license_cop_cg`,1]]"', cop_stats='"[100,100,0]"', playtime='"[3,0,3]"' WHERE pid='76561198139171015'
+[11:00:16:611729 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Out of range value for column 'westcash' at row 1
+[11:00:16:611757 +01:00] [Thread 17004] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET name='POLICJA   Daniel Stone', westcash='999990904306749440', westbankacc='51250', cop_gear='"[`U_Marshal`,`V_PlateCarrier2_blk`,`B_Bergen_hex_F`,`G_Aviator`,`H_Beret_02`,[`ItemMap`,`ItemCompass`,`ItemWatch`,`ItemRadio`,`B_UavTerminal`,`NVGoggles_OPFOR`,`Rangefinder`],`srifle_DMR_03_F`,`hgun_P07_F`,[],[`HandGrenade_Stone`,`HandGrenade_Stone`],[`Medikit`,`optic_KHS_blk`],[`SmokeShellBlue`,`30Rnd_9x21_Mag`,`30Rnd_9x21_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`20Rnd_762x51_Mag`,`30Rnd_9x21_Mag`,`30Rnd_9x21_Mag`,`30Rnd_9x21_Mag`,`20Rnd_762x51_Mag`],[`G_Balaclava_TI_G_blk_F`,`G_Bandanna_aviator`],[`SmokeShellBlue`,`HandGrenade_Stone`,`HandGrenade_Stone`,`HandGrenade_Stone`,`HandGrenade_Stone`,`HandGrenade_Stone`,`HandGrenade_Stone`,`HandGrenade_Stone`,`SmokeShellBlue`,`HandGrenade_Stone`,`HandGrenade_Stone`,`HandGrenade_Stone`,`HandGrenade_Stone`],[`muzzle_snds_B`,`acc_flashlight`,`optic_DMS`,`bipod_01_F_blk`],[`muzzle_snds_L`,``,``,``],[]]"', cop_licenses='"[[`license_cop_cAir`,1],[`license_cop_cg`,1]]"', cop_stats='"[100,100,0]"', playtime='"[4,0,3]"' WHERE pid='76561198139171015'
+[11:52:14:998194 +01:00] [Thread 18596] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[11:52:14:998242 +01:00] [Thread 18596] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET jail_time='15' WHERE playerid='76561198260378020'
+[11:53:21:772765 +01:00] [Thread 18596] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[11:53:21:772785 +01:00] [Thread 18596] extDB3: SQL: Error MariaDBQueryException: Input: SELECT jail_time FROM players WHERE playerid='76561198260378020'
+[13:55:03:354831 +01:00] [Thread 19392] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[13:55:03:354879 +01:00] [Thread 19392] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET jail_time='5' WHERE playerid='76561198094393991'

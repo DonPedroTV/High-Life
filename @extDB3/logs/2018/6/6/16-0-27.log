@@ -1,0 +1,37 @@
+
+extDB3: https://bitbucket.org/torndeco/extdb3/wiki/Home
+extDB3: Version: 1.031
+extDB3: Windows Version
+Message: All development for extDB3 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB3 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 18/05/15
+
+
+extDB3: Found extdb3-conf.ini
+extDB3: Detected 8 Cores, Setting up 6 Worker Threads
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+
+
+[16:01:03:643560 +02:00] [Thread 1796] extDB3: SQL: Initialized: Add Quotes around TEXT Datatypes mode: 2
+[16:01:03:643616 +02:00] [Thread 1796] extDB3: SQL: Initialized: NULL = ""
+[16:01:03:643634 +02:00] [Thread 1796] extDB3: Locked
+[16:43:35:071381 +02:00] [Thread 6236] extDB3: SQL: Error MariaDBQueryException: Incorrect string value: '\xC4\x99pa"' for column 'message' at row 1
+[16:43:35:071414 +02:00] [Thread 6236] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO `xphonemessages` (sender, receiver, message) VALUES ('7087275966', '7858593615', '"chuj ci na kurwe szmato tępa"')
+[17:12:10:912255 +02:00] [Thread 7888] extDB3: SQL: Error MariaDBQueryException: Incorrect string value: '\xC5\x82em s...' for column 'message' at row 1
+[17:12:10:912304 +02:00] [Thread 7888] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO `xphonemessages` (sender, receiver, message) VALUES ('7225661798', '7396165865', '"nowy jestem zgubiłem się "')
+[17:20:33:415943 +02:00] [Thread 7612] extDB3: SQL: Error MariaDBQueryException: Incorrect string value: '\xC5\x82em c...' for column 'message' at row 1
+[17:20:33:415965 +02:00] [Thread 7612] extDB3: SQL: Error MariaDBQueryException: Input: INSERT INTO `xphonemessages` (sender, receiver, message) VALUES ('7225661798', '7396165865', '"musiałem coś zrobić"')
+[18:11:19:735224 +02:00] [Thread 7888] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[18:11:19:735267 +02:00] [Thread 7888] extDB3: SQL: Error MariaDBQueryException: Input: SELECT jail_time FROM players WHERE playerid='76561198035538836'
+[18:33:42:544983 +02:00] [Thread 1344] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[18:33:42:545037 +02:00] [Thread 1344] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET jail_time='12' WHERE playerid='76561198124296161'
+[18:58:47:589908 +02:00] [Thread 904] extDB3: SQL: Error MariaDBQueryException: Unknown column 'playerid' in 'where clause'
+[18:58:47:589953 +02:00] [Thread 904] extDB3: SQL: Error MariaDBQueryException: Input: UPDATE players SET jail_time='10' WHERE playerid='76561198159358611'
