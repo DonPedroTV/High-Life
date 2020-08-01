@@ -5,6 +5,10 @@ Misja stworzona przez **Tonic**, edytowana przez **High-Life**
 
 Dalsza edycja: **Shield** oraz **DonPedroTV**, a także społeczeństwo (High-Life)
 
+-------------------------------------------------------------------------------------------------------
+# Dodatki
+
+Regulamin serwera: https://docs.google.com/document/d/1cZLqSPEzB9SoPaLQpYcq2HYcWnhKfH0xAUYhekduH6Q/edit?usp=sharing
 
 -------------------------------------------------------------------------------------------------------
 # Licencja
